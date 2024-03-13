@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(./fontes/idroid.otf) format(opentype);
+}
+body {
+    background-color: #84E1AD;
+}
+header{
+    background-image: linear-gradient(to bottom, #3CD782, #2FAA66, #227948, #1A5C38);
+    padding-top: 10px;
+    margin: 0px;
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.menuprincipal{
+    background-color: #1A5C38;
+    padding-top: 10px;
+    width: 850px;
+    margin: auto;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+p{
+    margin: 0px 30px 0px 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+a.navprincipal{
+    text-decoration: none;
+    text-align:justify;
+    margin: 0px 30px 0px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+article {
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+}
+a.navparagrafos{
+    text-decoration: none;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #227848;
+    font-weight: bold;
+}
+h1.titulo2{
+
+    margin: 0px 30px 0px 30px;
+    font-family: idroid, Helvetica, sans-serif;
+    color: #1A5C38;
+}
+h2.titulo3{
+
+    margin-left: 20px;
+    background-image: linear-gradient(to left, white,  #C8ECD8);
+    font-family: idroid, Helvetica, sans-serif;
+    color: #1A5C38;
+}
+h2.titulo4{
+    margin: 0px 30px 0px 30px;
+    background-image: linear-gradient(to left, white,  #C8ECD8);
+    color: #1A5C38;
+    font-family: idroid, Helvetica, sans-serif;
+}
+img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+}
+
+#principal {
+    width: 850px;
+    margin:auto;
+    background-color: white;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    background-color: #1A5C38;
+    padding: 20px;
+}
+.conteinerlinks{
+    background-color: #81eab0;
+    margin: 30px;
+    border-radius: 10px;
+}
+h3.titulo5{
+    background-color:#15a958;
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px 0px;
+}
+footer{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
