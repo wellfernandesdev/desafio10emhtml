@@ -31,11 +31,7 @@ header{
     min-height: 150px;
     padding-top: 40px;
     text-align: center;
-
-
     margin: auto;
-
-
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
@@ -72,10 +68,39 @@ nav >a:hover{
     color: var(--cor5);
     transition: 0.5s;
 }
-p{
+main {
+    max-width: 850px;
+    min-width: 320px;
+    margin:auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.556);
+    margin-bottom: 30px;
+    border-radius: 0px 0px 5px 5px;
+}
+main p{
     margin: 0px 30px 0px 30px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
     padding-bottom: 20px;
     padding-top: 10px;
+}
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+    }
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
 }
 article {
     margin: 1px;
@@ -88,40 +113,26 @@ a.navparagrafos{
     color: #227848;
     font-weight: bold;
 }
-h1.titulo2{
+h1{
 
     margin: 0px 30px 0px 30px;
     font-family: idroid, Helvetica, sans-serif;
-    color: #1A5C38;
+    color: var(--cor5);
 }
-h2.titulo3{
-
+h2{
     margin-left: 20px;
     background-image: linear-gradient(to left, white,  #C8ECD8);
     font-family: idroid, Helvetica, sans-serif;
-    color: #1A5C38;
+    font-size: 1.3em;
+    color: var(--cor4);
+    text-indent: 10px;
 }
-h2.titulo4{
-    margin: 0px 30px 0px 30px;
-    background-image: linear-gradient(to left, white,  #C8ECD8);
-    color: #1A5C38;
-    font-family: idroid, Helvetica, sans-serif;
-}
+
 img {
     display: flex;
     justify-content: center;
     padding: 20px;
     margin: auto;
-}
-
-main {
-    max-width: 850px;
-    min-width: 320px;
-    margin:auto;
-    background-color: white;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.556);
-    margin-bottom: 30px;
-    border-radius: 0px 0px 5px 5px;
 }
 
 .video {
