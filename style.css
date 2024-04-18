@@ -34,12 +34,12 @@ header{
     padding-top: 40px;
     text-align: center;
     margin: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family: var(--font-destaque)
 }
 header > h1 {
     color: white;
     font-family: var(--font-destaque);
+    font-weight: normal;
     margin-bottom: 20px;
     font-size: 1.8em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.504);
@@ -58,7 +58,7 @@ nav{
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 nav > a{
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
@@ -111,6 +111,7 @@ h1{
     margin: 0px 30px 0px 30px;
     font-family: idroid, Helvetica, sans-serif;
     color: var(--cor5);
+    font-weight: normal;
 }
 h2{
     margin-left: 20px;
@@ -119,6 +120,7 @@ h2{
     font-size: 1.3em;
     color: var(--cor4);
     text-indent: 10px;
+    font-weight: normal;
 }
 img {
     display: flex;
